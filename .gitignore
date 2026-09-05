@@ -1,15 +1,20 @@
-# Konfigurasi lokal
-config/database.php
-
-# Dependencies
-vendor/
+# Jangan push konfigurasi lokal
+# Tapi TETAP push config/database.php karena sudah pakai env vars
 
 # File sistem
 .DS_Store
 Thumbs.db
 *.log
+*.cache
 
-# File IDE
+# IDE
 .vscode/
 .idea/
 *.swp
+*.swo
+
+# Upload files (opsional)
+assets/uploads/
+
+# Environment local
+.env.local
