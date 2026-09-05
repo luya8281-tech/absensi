@@ -1,0 +1,15 @@
+# Konfigurasi lokal
+config/database.php
+
+# Dependencies
+vendor/
+
+# File sistem
+.DS_Store
+Thumbs.db
+*.log
+
+# File IDE
+.vscode/
+.idea/
+*.swp
